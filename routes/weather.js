@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 const request = require('request');
 
-const OPENWEATHER_API_KEY = "Yd0af2a7ff7bf463f274f4d9a6f96fc01"; 
+const OPENWEATHER_API_KEY = "d0af2a7ff7bf463f274f4d9a6f96fc01";
 const CITY_NAME = 'Tokyo,JP'; // 東京の天気予報
 
 const API_URL = `http://api.openweathermap.org/data/2.5/weather?q=${CITY_NAME}&appid=${OPENWEATHER_API_KEY}&lang=ja&units=metric`;
